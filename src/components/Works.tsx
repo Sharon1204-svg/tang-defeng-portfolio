@@ -12,34 +12,47 @@ const projects = [
     category: "UX / Interaction Design",
   },
   {
-    title: "Digital Experience Design",
-    subtitle: "数字产品体验设计",
-    category: "Service / Interface Design",
+    title: "VR Navigation Icon",
+    subtitle: "虚拟现实导航图标设计",
+    category: "Visual / Interface Design",
   },
 ];
 
 export default function Works(){
   return (
     <section id="works" className="container-custom py-32">
-      <div className="mb-16 flex items-end justify-between">
+      <div className="mb-20 flex items-end justify-between">
         <div>
-          <p className="text-sm tracking-[0.35em] text-slate-500">SELECTED WORKS</p>
-          <h2 className="mt-6 text-6xl font-medium text-black">Works</h2>
-          <p className="mt-6 text-lg text-slate-500">
+          <p className="text-sm tracking-[0.45em] text-slate-500">SELECTED WORKS</p>
+          <h2 className="mt-5 text-5xl md:text-6xl font-medium">Selected Projects</h2>
+          <p className="mt-6 max-w-xl text-lg text-slate-500">
             Automotive UX, interaction design, and product innovation.
-            <br/>汽车体验、交互设计与产品创新。
+            <br />
+            汽车体验、交互设计与产品创新。
           </p>
         </div>
-        <Link href="/works" className="text-sm underline underline-offset-8">
+        <Link href="/works" className="hidden md:block text-sm underline underline-offset-8">
           View All Works →
         </Link>
       </div>
-      <div className="grid gap-8 md:grid-cols-2">
-        {projects.map((item)=>(
-          <Link href="/works" key={item.title} className="group rounded-[32px] bg-[#F1F2F4] p-10 h-[520px] flex flex-col justify-end transition-transform hover:-translate-y-2">
-            <h3 className="text-3xl font-medium">{item.title}</h3>
-            <p className="mt-3 text-slate-500">{item.subtitle}</p>
-            <p className="mt-8 text-sm text-slate-500">{item.category}</p>
+
+      <div className="grid gap-10 md:grid-cols-2">
+        {projects.map((item,index)=>(
+          <Link
+            href="/works"
+            key={item.title}
+            className="group relative overflow-hidden rounded-[36px] bg-[#ECEDEB] h-[560px] p-10 flex flex-col justify-end transition-all duration-500 hover:-translate-y-3"
+          >
+            <div className="absolute top-8 left-10 text-sm text-slate-400">
+              0{index+1}
+            </div>
+            <div>
+              <h3 className="text-3xl font-medium transition-transform duration-500 group-hover:-translate-y-2">
+                {item.title}
+              </h3>
+              <p className="mt-4 text-slate-500">{item.subtitle}</p>
+              <p className="mt-8 text-sm text-slate-400">{item.category}</p>
+            </div>
           </Link>
         ))}
       </div>
