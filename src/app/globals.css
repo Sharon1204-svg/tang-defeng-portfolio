@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background:#F7F6F2;
+  --foreground:#111111;
+}
+
+html { scroll-behavior:smooth; }
+
+body {
+  background:var(--background);
+  color:var(--foreground);
+  font-family:Inter, Arial, sans-serif;
+}
+
+.container-custom {
+  max-width:1400px;
+  margin:auto;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+@media(max-width:768px){
+  .container-custom{
+    padding-left:20px;
+    padding-right:20px;
+  }
+}
