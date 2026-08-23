@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "UX Designer · Mobility Experience Designer",
+    "title": "Designing human-centered experiences for future mobility.",
+    "description": "Exploring mobility experience, interaction design and intelligent products."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am Tang Defeng, a UX designer with a background in industrial design and user experience research. My work focuses on mobility experience, intelligent products, automotive HMI and human-centered interaction."
+  }
+}
