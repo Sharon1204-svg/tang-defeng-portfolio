@@ -1,66 +1,30 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-[#FAFAF8] text-[#111]">
 
       {/* Navigation */}
+      <header className="flex justify-between items-center px-8 md:px-16 py-8">
 
-      <header
-        className="
-        flex
-        justify-between
-        items-center
-        px-12
-        py-8
-        "
-      >
-
-        <div
-          className="
-          text-lg
-          font-semibold
-          tracking-[0.25em]
-          "
-        >
+        <div className="text-sm tracking-[0.25em] font-medium">
           TANG DEFENG
         </div>
 
 
-        <nav
-          className="
-          flex
-          gap-8
-          text-sm
-          text-gray-600
-          "
-        >
+        <nav className="flex gap-8 text-sm text-gray-600">
 
-          <a>
-            Home
-          </a>
-
-          <a>
+          <a href="/works" className="hover:text-black transition">
             Works
           </a>
 
-          <a>
+          <a href="/about" className="hover:text-black transition">
             About
           </a>
 
-          <a>
-            Research
-          </a>
-
-          <a>
-            Resume
-          </a>
-
-
-          <button>
+          <button className="hover:text-black transition">
             中文 / EN
           </button>
 
         </nav>
-
 
       </header>
 
@@ -68,125 +32,59 @@ export default function Home() {
 
       {/* Hero */}
 
-      <section
-        className="
-        grid
-        grid-cols-2
-        gap-12
-        px-12
-        pt-32
-        "
-      >
+      <section className="px-8 md:px-16 pt-20 pb-32">
+
+        <div className="grid md:grid-cols-2 gap-16 items-center">
 
 
-        {/* Left */}
+          {/* Left */}
 
-        <div>
-
-
-          <p
-            className="
-            text-sm
-            tracking-[0.35em]
-            text-gray-400
-            "
-          >
-            MOBILITY UX DESIGNER
-          </p>
+          <div>
 
 
+            <p className="text-sm tracking-[0.35em] text-gray-500 mb-10">
+              DESIGNER
+            </p>
 
-          <h1
-            className="
-            mt-8
-            text-7xl
-            font-semibold
-            leading-[1.05]
-            "
-          >
 
-            Designing
-            <br />
+            <h1 className="text-6xl md:text-8xl leading-[0.95] font-medium">
 
-            intelligent
-            <br />
+              Designing
+              <br />
 
-            mobility.
+              meaningful
+              <br />
 
-          </h1>
+              experiences.
+
+            </h1>
+
+
+            <p className="mt-10 text-lg leading-relaxed text-gray-500 max-w-xl">
+
+              I explore the relationship between people,
+              technology and everyday experiences.
+
+              <br /><br />
+
+              My journey started from industrial design,
+              expanded into digital experience,
+              and continues toward intelligent mobility.
+
+            </p>
+
+
+          </div>
 
 
 
+          {/* Visual */}
 
-          <p
-            className="
-            mt-10
-            max-w-lg
-            text-lg
-            leading-relaxed
-            text-gray-500
-            "
-          >
+          <div className="aspect-[4/5] rounded-3xl bg-neutral-200 flex items-center justify-center">
 
-            I focus on automotive UX,
-            intelligent cockpit,
-            and interaction design.
-
-            <br />
-            <br />
-
-            专注汽车智能座舱、
-            用户体验与交互设计。
-
-          </p>
-
-
-
-
-          <button
-            className="
-            mt-12
-            rounded-full
-            bg-black
-            px-8
-            py-4
-            text-white
-            "
-          >
-
-            Explore Works →
-
-          </button>
-
-
-        </div>
-
-
-
-        {/* Right Visual Placeholder */}
-
-        <div
-          className="
-          flex
-          items-center
-          justify-center
-          "
-        >
-
-          <div
-            className="
-            h-[520px]
-            w-full
-            rounded-3xl
-            bg-gray-100
-            flex
-            items-center
-            justify-center
-            text-gray-400
-            "
-          >
-
-            Automotive UX Visual
+            <p className="text-gray-400 text-sm tracking-widest">
+              PROJECT VISUAL
+            </p>
 
           </div>
 
@@ -198,56 +96,113 @@ export default function Home() {
 
 
 
+      {/* Journey Intro */}
 
-      {/* Intro */}
+      <section className="px-8 md:px-16 py-32 border-t border-gray-200">
 
-      <section
-        className="
-        px-12
-        py-32
-        "
-      >
 
-        <p
-        className="
-        text-sm
-        tracking-[0.3em]
-        text-gray-400
-        "
-        >
-          ABOUT
+        <p className="text-sm tracking-[0.35em] text-gray-500 mb-10">
+          MY JOURNEY
         </p>
 
 
-        <h2
-        className="
-        mt-6
-        text-4xl
-        font-medium
-        "
-        >
+        <h2 className="text-4xl md:text-6xl leading-tight max-w-4xl">
 
-        Industrial Designer exploring
-        future mobility experiences.
+
+          From industrial design
+          <br />
+
+          to digital experiences
+          <br />
+
+          and intelligent mobility.
 
         </h2>
+
+
+        <a
+          href="/about"
+          className="inline-block mt-12 text-sm border-b border-black pb-2"
+        >
+
+          Explore my story →
+
+        </a>
 
 
       </section>
 
 
 
+      {/* Selected Works */}
 
-      <footer
-      className="
-      px-12
-      py-8
-      text-sm
-      text-gray-400
-      "
-      >
+      <section className="px-8 md:px-16 py-32">
 
-        © 2026 Tang Defeng
+
+        <p className="text-sm tracking-[0.35em] text-gray-500 mb-10">
+          SELECTED WORKS
+        </p>
+
+
+        <div className="grid md:grid-cols-2 gap-8">
+
+
+          <div className="aspect-[4/3] bg-neutral-100 rounded-3xl p-8 flex items-end">
+
+            <div>
+
+              <h3 className="text-3xl">
+                Urban Mobility Experience
+              </h3>
+
+
+              <p className="mt-3 text-gray-500">
+                UX / Interaction Design
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <div className="aspect-[4/3] bg-neutral-100 rounded-3xl p-8 flex items-end">
+
+
+            <div>
+
+              <h3 className="text-3xl">
+                Digital Experience Design
+              </h3>
+
+
+              <p className="mt-3 text-gray-500">
+                Service / Interface Design
+              </p>
+
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+
+      </section>
+
+
+
+      {/* Footer */}
+
+      <footer className="px-8 md:px-16 py-16 border-t border-gray-200">
+
+        <p className="text-gray-500">
+          Designing meaningful experiences between people and technology.
+        </p>
+
 
       </footer>
 
