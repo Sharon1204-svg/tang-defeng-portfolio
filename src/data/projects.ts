@@ -1,34 +1,42 @@
 export const projects = [
   {
-    id: "mobility",
-    number: "01",
-    title: "Urban Mobility Experience Design",
-    subtitle: "高峰城市出行体验与服务优化设计",
-    description: "A UX research and service design project exploring commuter pain points, user journeys, and mobility experience optimization in urban transportation scenarios.",
-    tags: ["Mobility UX", "Service Design", "User Research", "Journey Mapping"]
+    id: 'chuxingbao',
+    number: '01',
+    title: 'Chuxingbao',
+    cn: '出行宝',
+    subtitle: 'Mobility Experience Design',
+    description: 'A mobility service design project exploring seamless urban travel experiences through user journey, interaction flow and service touchpoints.',
+    tags: ['Mobility UX', 'Interaction Design', 'Service Design'],
+    cover: '/images/chuxingbao.jpg'
   },
   {
-    id: "peta",
-    number: "02",
-    title: "PETA | Smart Pet Experience",
-    subtitle: "智能宠物生活体验设计",
-    description: "A human-centered IoT experience project exploring emotional connections between users, pets, and intelligent products through interaction and service design.",
-    tags: ["UX Design", "IoT Experience", "Interaction Design", "Product Strategy"]
+    id: 'wheelchair',
+    number: '02',
+    title: 'Accessible Wheelchair',
+    cn: '无障碍轮椅设计',
+    subtitle: 'Inclusive Mobility Design',
+    description: 'A human-centered mobility project focusing on wheelchair users, accessibility scenarios and portable product solutions.',
+    tags: ['Human-centered Design', 'Product Design', 'User Research'],
+    cover: '/images/wheelchair.jpg'
   },
   {
-    id: "food",
-    number: "03",
-    title: "Food Choice Experience System",
-    subtitle: "年轻上班族饮食决策交互体验设计",
-    description: "An interaction design project focusing on user research, information architecture, and decision-making experiences for daily food selection scenarios.",
-    tags: ["UX Research", "Interaction Design", "Information Architecture", "Prototype"]
+    id: 'peta',
+    number: '03',
+    title: 'PETA',
+    cn: '智能宠物喂食器',
+    subtitle: 'Smart Pet Care Experience',
+    description: 'An IoT experience design project exploring emotional interaction between users, pets and intelligent devices.',
+    tags: ['IoT', 'Interaction Design', 'Smart Product'],
+    cover: '/images/peta.jpg'
   },
   {
-    id: "wheelchair",
-    number: "04",
-    title: "Accessible Living Experience Design",
-    subtitle: "无障碍生活产品体验设计",
-    description: "A human-centered design project exploring accessibility, inclusive experience, and product interaction for everyday living scenarios.",
-    tags: ["Human-centered Design", "Inclusive Design", "Product Experience"]
+    id: 'caihe',
+    number: '04',
+    title: 'CAI BOX',
+    cn: '菜盒',
+    subtitle: 'Smart Food Management System',
+    description: 'A smart kitchen ecosystem integrating product, service and digital interaction to improve food management experiences.',
+    tags: ['UX Research', 'Service Design', 'Product System'],
+    cover: '/images/caihe.jpg'
   }
 ];
