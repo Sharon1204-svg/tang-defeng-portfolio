@@ -2,33 +2,33 @@ export const projects = [
   {
     id: "mobility",
     number: "01",
-    title: "Urban Mobility Experience",
-    subtitle: "北京高峰地铁出行体验设计",
-    description: "A mobility UX research project exploring passenger experience and service optimization during peak-hour subway travel.",
-    tags: ["Mobility UX", "Service Design", "User Research"]
+    title: "Urban Mobility Experience Design",
+    subtitle: "高峰城市出行体验与服务优化设计",
+    description: "A UX research and service design project exploring commuter pain points, user journeys, and mobility experience optimization in urban transportation scenarios.",
+    tags: ["Mobility UX", "Service Design", "User Research", "Journey Mapping"]
   },
   {
     id: "peta",
     number: "02",
-    title: "PETA Smart Pet Experience",
-    subtitle: "智能宠物喂食器设计",
-    description: "A smart product experience exploring the relationship between users, pets and connected devices.",
-    tags: ["IoT Design", "Product Experience", "Interaction"]
+    title: "PETA | Smart Pet Experience",
+    subtitle: "智能宠物生活体验设计",
+    description: "A human-centered IoT experience project exploring emotional connections between users, pets, and intelligent products through interaction and service design.",
+    tags: ["UX Design", "IoT Experience", "Interaction Design", "Product Strategy"]
   },
   {
     id: "food",
     number: "03",
-    title: "Food Choice Interaction System",
-    subtitle: "年轻上班族菜品选择系统交互设计",
-    description: "An interaction design project focused on improving food decision-making experiences for young professionals.",
-    tags: ["UX Design", "Interaction", "Information Architecture"]
+    title: "Food Choice Experience System",
+    subtitle: "年轻上班族饮食决策交互体验设计",
+    description: "An interaction design project focusing on user research, information architecture, and decision-making experiences for daily food selection scenarios.",
+    tags: ["UX Research", "Interaction Design", "Information Architecture", "Prototype"]
   },
   {
     id: "wheelchair",
     number: "04",
-    title: "Accessible Living Product Design",
-    subtitle: "家用轮椅无障碍设计",
-    description: "A human-centered design exploration focusing on accessibility and everyday living experience.",
-    tags: ["Human-centered Design", "Product Design"]
+    title: "Accessible Living Experience Design",
+    subtitle: "无障碍生活产品体验设计",
+    description: "A human-centered design project exploring accessibility, inclusive experience, and product interaction for everyday living scenarios.",
+    tags: ["Human-centered Design", "Inclusive Design", "Product Experience"]
   }
 ];
